@@ -325,6 +325,14 @@ width:100%;
 
 /* COMMENTS */
 
+
+/*This is not working*/
+/*
+label[for=comment]::after {
+content:"\a";
+white-space: pre;
+}*/
+
 .comments input[type=text], textarea {
 background-color: #e959ff;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
